@@ -1,69 +1,163 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width initial scale= 1.0">
-  <title>My Portfolio | Home</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-</head>
-
-<body> 
-  <nav class="back">
-    <div class="nav-container">
-      <a href="index.html">Home</a>
-      <a href="#bottom1">Expertise</a>
-      <a href="#bottom2">Projects</a>
-      <a href="#bottom3">Education</a>
-      <a href="#bottom4">Contact</a>
-    </div>
-  </nav>
-  <div class="background">
-    <h1 class="main"><strong><center>SHREYASH SINGH</center></strong></h1>
-    <h1 class="main1"><strong><center>Fronted Developer</center></strong></h1>
-  </div>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio | Home</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  </head>
   
+  <body>
+    <nav class="back">
+      <div class="nav-container">
+        <a href="index.html">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+      </div>
+    </nav>
 
-  <section>
-    <center><p><b>Programming isn't about what you know; it's about what you can figure out.</b></p></center>
-    <br>
-    <h2 id="bottom1"><span>Expertise</span></h2><br>
-    <p class="style">I am a Fronted Developer with expertise in HTML, CSS, JavaScript, React.</p> <p>I have work on a tools like
-      Github,Gitlab,repl.it.
-    </p><br>
-      <h2 id="bottom2"><span>Projects</span></h2>
-      <div class="project-container">
-        <div class="project"><br>
-          1. Contact form <br>
-          <a href="https://github.com/SHREYASH-2211/contacts-form.git" target="blank"><img src="Assests/contact.png" height="300" width="300" title="Contact form"></a><br>
-        </div>
-        <div class="project">
-          2. Your Future<br>
-          <a href="https://github.com/SHREYASH-2211/practice.git" target="blank"><img src="Assests/initial.png" height="300" width="300" title="Your future"></a>
+    <header class="hero">
+      <div class="hero-content">
+        <h1>Welcome to My Portfolio</h1>
+        <p>Web Developer & Designer</p>
+        <a href="#contact" class="btn">Get In Touch</a>
+      </div>
+    </header>
+
+    <section id="about" class="section">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+          <!-- <div class="about-img">
+            <img src="/placeholder.svg?height=300&width=300" alt="Profile Picture">
+          </div> -->
+          <div class="about-text">
+            <p>Hello! I'm a passionate web developer with expertise in creating responsive and user-friendly websites. I specialize in HTML, CSS, JavaScript, and various modern frameworks.</p>
+            <p>With a strong background in both front-end and back-end development, I strive to build applications that are not only functional but also provide an exceptional user experience.</p>
+            <a href="resume.pdf" class="btn" download>Download Resume <i class="fas fa-download"></i></a>
+          </div>
         </div>
       </div>
-      <br>
-      <h2 id="bottom3"><span>Education</span></h2><br>
-      <p class="style">Schooling from Sardar Vallabhbhai Patel Vidyalaya.</p>
-      <p class="style">11th and 12th from S.V.P. Junior College of Science </p>
-      <p class="style">B.tech from SPIT </p>
-
-    <h2 id="bottom4"></h2>
-    
-    <nav class="back1">
-      <center>
-      <a href="https://www.linkedin.com/in/shreyash-singh-329973288/" target="_blank"title="Let's connect"><i class="fab fa-linkedin" style="font-size:35px;"></i></a>
-
-      <a href="https://github.com/SHREYASH-2211"target="_blank" title="I have some good projects"><i class="fa fa-github" style="font-size:35px;"></i></a>
-
-      <a href=mailto:singhshreyash2211@gmail.com target="_blank"title="Don't worry I check my mails"><i class="fa fa-envelope" style="font-size:35px"></i></a>
-      </center>
-    </nav>
-      
     </section>
+
+    <section id="projects" class="section bg-light">
+      <div class="container">
+        <h2 class="section-title">My Projects</h2>
+        <div class="projects-grid">
+          <div class="project-card">
+            <img src="/Portfolio/Assests/Messmate.png" alt="Project 1">
+            <h3>MessMate</h3>
+            <p>A responsive website built React.js</p>
+            <div class="project-links">
+              <a href="https://messmate4u.netlify.app/" class="btn-small"><i class="fas fa-link"></i> Live Demo</a>
+              <a href="https://github.com/SHREYASH-2211/mess_management.git" class="btn-small"><i class="fab fa-github"></i> GitHub</a>
+            </div>
+          </div>
+          <div class="project-card">
+            <img src="/Portfolio/Assests/News.png" alt="Project 2">
+            <h3>A News-Website</h3>
+            <p>A news website using Html, Css and JavaScript.</p>
+            <div class="project-links">
+              <a href="https://github.com/SHREYASH-2211/News-Website.git" class="btn-small"><i class="fab fa-github"></i> GitHub</a>
+            </div>
+          </div>
+          <div class="project-card">
+            <img src="/Portfolio/Assests/Fitness.png" alt="Project 3">
+            <h3>Wellness360</h3>
+            <p>A fitness website using React.js .</p>
+            <div class="project-links">
+              <a href="https://github.com/SHREYASH-2211/Fitness.git" class="btn-small"><i class="fab fa-github"></i> GitHub</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <div class="container">
+        <h2 class="section-title">My Skills</h2>
+        <div class="skills-container">
+          <div class="skill">
+            <i class="fab fa-html5"></i>
+            <h3>HTML</h3>
+          </div>
+          <div class="skill">
+            <i class="fab fa-css3-alt"></i>
+            <h3>CSS</h3>
+          </div>
+          <div class="skill">
+            <i class="fab fa-js"></i>
+            <h3>JavaScript</h3>
+          </div>
+          <div class="skill">
+            <i class="fab fa-react"></i>
+            <h3>React</h3>
+          </div>
+          <div class="skill">
+            <i class="fab fa-node-js"></i>
+            <h3>Node.js</h3>
+          </div>
+          <div class="skill">
+            <i class="fas fa-database"></i>
+            <h3>SQL</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section bg-light">
+      <div class="container">
+        <h2 class="section-title">Contact Me</h2>
+        <div class="contact-container">
+          <div class="contact-info">
+            <div class="contact-item">
+              <i class="fas fa-envelope"></i>
+              <p>singhshreyash2211@gmail.com</p>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-phone"></i>
+              <p>+91 8169691437</p>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <p>Mumbai, Maharashtra</p>
+            </div>
+            <div class="social-links">
+              <a href="https://github.com/SHREYASH-2211"><i class="fab fa-github"></i></a>
+              <a href="http://linkedin.com/in/shreyash-singh-329973288/"><i class="fab fa-linkedin"></i></a>
+            </div>
+          </div>
+          <form class="contact-form" action="https://formspree.io/f/singhshreyash2211@gmail.com" method="POST">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+            <p class="form-note">Your message will be sent to singhshreyash2211@gmail.com</p>
+            <button type="submit" class="btn">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <p>&copy; 2025 My Portfolio. All Rights Reserved.</p>
+      </div>
+    </footer>
+
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
+
